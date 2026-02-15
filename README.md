@@ -7,6 +7,8 @@
 
 不过在 `git bash` 中使用这个命令还是能压缩图片的，可以试试
 
+* *貌似CLI 由于好长时间没更新的缘故，需要用很低版本的 node 才可以执行压缩命令，大概是 16.0.0*
+
 ```
 squoosh-cli --webp '{"quality":75}' -d output_dir ./*.jpg
 ```
