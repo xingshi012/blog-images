@@ -11,6 +11,14 @@
 
 ```
 squoosh-cli --webp '{"quality":75}' -d output_dir ./*.jpg
+
+squoosh-cli --webp '{"quality":75}' -d output_dir ./*.png
+
+nvm list
+
+nvm use 16.0.0
+
+nvm use 22.4.0
 ```
 
 或者用他的网站代替，[squoosh.app](https://squoosh.app/)，这个还暂时没有停止维护关站呢
